@@ -1,0 +1,75 @@
+THE MAZE PROJECT - MVP
+Overview:
+The Maze Project is a 3D game developed using the SDL2 graphics library. This document outlines the Minimum Viable Product (MVP) requirements and the core user story that the game will fulfill.
+
+MVP Features:
+Walls:
+
+Objective: Implement the maze structure with walls using a 2D array and SDL2 graphics.
+Implementation:
+Define a 2D array to represent the maze layout.
+Use SDL2 to render walls as rectangles or lines.
+Player Orientation:
+
+Objective: Enable player movement and orientation control via arrow keys.
+Implementation:
+Handle user input using SDL_Event.
+Adjust player position and orientation based on input.
+Player Movement:
+
+Objective: Allow the player to move in the maze (forward, backward, left, right).
+Implementation:
+Implement movement logic tied to the player’s orientation.
+Collision Detection (Ouch):
+
+Objective: Prevent the player from moving through walls.
+Implementation:
+Check for collisions between the player and walls.
+Halt movement when a collision occurs.
+Maze Data Parser:
+
+Objective: Read maze data from a text file and store it in a 2D array.
+Implementation:
+Implement a parser to load maze data.
+Store the maze data in the 2D array.
+Maze Rendering:
+
+Objective: Visually represent the maze on the screen.
+Implementation:
+Draw the maze using the 2D array data.
+Use distinct colors for walls, ground, and ceiling.
+Wall Textures:
+
+Objective: Add textures to the walls for visual enhancement.
+Implementation:
+Load and render wall textures using SDL2’s texture functions.
+User Story:
+As an end-user, I want to play an engaging maze game created with SDL2, so I can challenge myself to navigate through the maze efficiently.
+
+Key Requirements:
+Main Menu:
+
+Objective: Allow users to start a new game, load a saved game, or quit.
+Features:
+Select difficulty levels (maze size and obstacles).
+Gameplay Experience:
+
+Objective: Provide a smooth, responsive gameplay experience.
+Features:
+Control the character with arrow keys.
+Display a countdown timer and score tracker.
+Include collectible items like coins to increase score.
+Introduce obstacles that challenge player navigation.
+Game Completion:
+
+Objective: Celebrate the user’s success upon completing the maze.
+Features:
+Show a congratulatory message with the final score and time.
+Provide an option to save the game for future play.
+Audio and Visuals:
+
+Objective: Enhance the gaming experience with sound and graphics.
+Features:
+Implement sound effects for actions like collecting coins and hitting obstacles.
+Play background music to complement the game’s atmosphere.
+Ensure high-quality graphics and animations to keep the player engaged.
