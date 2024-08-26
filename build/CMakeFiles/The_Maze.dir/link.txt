@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/The_Maze.dir/main.c.o -o The_Maze  -lSDL2 
